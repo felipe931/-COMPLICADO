@@ -1,0 +1,9 @@
+.titulo{
+    color: red(250, 0, 0) ;
+
+} 
+ h1 {
+    font-weight: bold;
+    font-style: italic;
+    color: crimson;
+ }
