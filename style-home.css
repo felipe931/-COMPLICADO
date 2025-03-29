@@ -1,0 +1,35 @@
+* {
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(173, 40, 66);
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgb(23, 207, 207);
+    padding:15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+.navbar a{
+    color: gold;
+    text-align:none;
+    padding: 15px 20px;
+    display: inline-block;
+    font-size:1.5rem;
+}
+.navbar a:hover{
+    background-color: black;
+}
