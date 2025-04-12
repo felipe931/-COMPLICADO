@@ -1,0 +1,44 @@
+@keyframes  parado{
+
+    from
+    {
+     background: red;
+     border-radius: 0px;
+     top: 0;
+     left: 0;
+
+    }
+   to
+   {
+      background: lightgreen;
+      border-radius: 20px;
+      top: 100px;
+      left: 100px;
+      color: red;
+
+   }
+
+}
+    
+
+
+#box{
+    width: 200px;
+    height: 200px;
+    background: url("images.jpg");
+    position: relative;
+    animation: parado 10s 2s 3 alternate
+
+
+}
+
+#box h1{
+    padding: 10px;
+    color: white;
+    background: rgba(209, 17, 17, 0.8);
+    border-bottom: 10px solid white;
+
+
+
+}
+ 
